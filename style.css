@@ -29,9 +29,11 @@ header{
 }
 
 .logo{
-    height: 64px;
-    width: 64px;
+    height: 70px;
+    width: 70px;
     background-color: gray;
+    background-image: url("./img/images.png");
+    background-size: 70px;
 }
 
 .menu ul {
@@ -82,10 +84,12 @@ main{
     background-color: lightblue;
     height: 100%;
     width: 50%;
+    background-image: url("./img/brawl-stars-tier-list.webp");
+    background-size: 1700px;
+    background-position: 50%;
 }
 
 footer{
-    background-color: bisque;
     height: 100px;
     display: flex;
     justify-content: center;
