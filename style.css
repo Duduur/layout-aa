@@ -7,7 +7,7 @@
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 ul, ol, li{
     list-style: none;
@@ -19,6 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 64px;
+    background-color: rgb(51, 16, 118);
 
 }
 header{
@@ -33,7 +34,9 @@ header{
     width: 70px;
     background-color: gray;
     background-image: url("./img/images.png");
-    background-size: 70px;
+    background-size: 75px;
+    border-radius: 50%;
+    background-position: 50%;
 }
 
 .menu ul {
@@ -54,39 +57,70 @@ main{
 }
 .conteudo h1{
     font-size: 100px;
+    color: white;
 }
 .conteudo p{
     font-size: 50px;
     width: 90%;
+    color: white;
 }
 
 .acao button{
     height: 100px;
     width: 400px;
     font-size: 48px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 .social{
     width: 90%;
     display: flex;
-    justify-content: space-between;
+
 }
-.social div{
+.social .hollwood{
     height: 96px;
     width: 96px;
     background-color: lightgrey;
     border-radius: 50%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url("./img/ckksm799i45c1.png");
+    
 }
+
+.social .rankeado{
+    height: 96px;
+    width: 96px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url("./img/new-brawl-stars-logo-recreated-in-full-quality-v0-2b1uar6mhbkc1.webp");
+}
+
+.social .hypercarga{
+    height: 96px;
+    width: 96px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url("./img/hyper.jpeg");
+}
+    
 
 
 .imagem{
     background-color: lightblue;
     height: 100%;
     width: 50%;
-    background-image: url("./img/brawl-stars-tier-list.webp");
+    background-image: url("./img/ruffs.jpg");
     background-size: 1700px;
-    background-position: 50%;
+    background-position: 40%;
+    background-repeat: no-repeat;
 }
 
 footer{
